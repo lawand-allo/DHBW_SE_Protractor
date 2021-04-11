@@ -4,4 +4,4 @@
   * Clone this Repository
   * Run "npm install" for installing all dependencies
   * Install Protractor: npm install -g protractor
-  * webdriver-manager update
+  * run "webdriver-manager update"
