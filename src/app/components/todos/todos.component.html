@@ -1,0 +1,16 @@
+<div class="todos">
+  <form (submit)="onAdd()">
+    <input
+      type="text"
+      name="inputTodo"
+      placeholder="Enter todo..."
+      class="todo-input"
+      [(ngModel)]="inputTodo"
+    />
+    <input type="submit" value="Add Todo" class="todo-submit" />
+  </form>
+  <div *ngFor="let todo of todos; let i = index;"  class="todo {{(todo.completed? 'done': '')}}">
+    <div class="content" (click)="onToggleDone(todo.id)"> {{todo.name}}</div>
+    <a href="#" (click)="onRemove(todo.id)"><span>Remove</span></a>
+  </div>
+</div>
