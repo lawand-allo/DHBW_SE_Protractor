@@ -1,6 +1,7 @@
 <div class="todos">
   <form (submit)="onAdd()">
     <input
+      id='nameField'
       type="text"
       name="inputTodo"
       placeholder="Enter todo..."
@@ -10,7 +11,7 @@
     <input type="submit" value="Add Todo" class="todo-submit" />
   </form>
   <div *ngFor="let todo of todos; let i = index;"  class="todo {{(todo.completed? 'done': '')}}">
-    <div class="content" (click)="onToggleDone(todo.id)"> {{todo.name}}</div>
+    <div class="content" id="todo{{todo.id}}" (click)="onToggleDone(todo.id)"> {{todo.name}}</div>
     <a href="#" (click)="onRemove(todo.id)"><span>Remove</span></a>
   </div>
 </div>
