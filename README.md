@@ -7,7 +7,7 @@
   * Run "npm install" for installing all dependencies
 
 ## Helpful Links:
-https://github.com/angular/protractor
-https://www.protractortest.org/#/
-https://www.protractortest.org/#/frameworks
+*https://github.com/angular/protractor
+*https://www.protractortest.org/#/
+*https://www.protractortest.org/#/frameworks
 
