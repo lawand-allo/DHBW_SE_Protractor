@@ -10,4 +10,5 @@
 * https://www.protractortest.org
 * https://github.com/angular/protractor
 * https://www.protractortest.org/#/frameworks
+* https://www.protractortest.org/#/debugging
 
